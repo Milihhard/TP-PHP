@@ -10,15 +10,20 @@
 			<?php  include("include/header.php")?>
 			
 			<div id="encheremain">
-				<div id="enchere1">
-					<p>Dernière enchère:</p>
+			<ul>
+				<li>
+				<div class="ench">
+					<p>Dernière enchere:</p>
 					<img width="500" height="250"src='res/head2.jpg'>
 				</div>
-				<div id="enchere2">
+				</li>
+				<li>
+				<div class="ench">
 					<p>Plus grosse enchere:</p>
 					<img width="500" height="250"src='res/head2.jpg'>
 				</div>
-			
+				</li>
+			</ul>
 			</div>
 			
 		</div>

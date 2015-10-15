@@ -10,6 +10,18 @@ body{
 	margin:0;
 }
 
+p{
+	color: white;
+}
+
+/*
+=====================
+=				   	=
+=		header		=
+=				   	=
+=====================
+*/
+
 #header{
 	width: 100%;
 	/* background-color:rgba(200,200,51,0.5);
@@ -60,12 +72,27 @@ body{
 	margin-right: 0%;
 }
 
-#encheremain{
-	display: inline;
-	width:50%;
-}
+/*
+=====================
+=				  	=
+=		index		=
+=				   	=
+=====================
+*/
 
-#encheremain #enchere1, #encheremain #enchere2{
-	width: 50;
+/* #encheremain{
+	width:100%;
+}
+#encheremain ul li{
 	display: inline;
+} */
+
+#encheremain ul {
+	margin: 0;
+	padding: 0.5em;
+}
+#encheremain li{
+	list-style: none;
+	margin: 0;
+	/*padding: 0;*/
 }
