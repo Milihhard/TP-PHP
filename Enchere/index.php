@@ -9,6 +9,18 @@
 		<div id="main">
 			<?php  include("include/header.php")?>
 			
+			<div id="encheremain">
+				<div id="enchere1">
+					<p>Dernière enchère:</p>
+					<img width="500" height="250"src='res/head2.jpg'>
+				</div>
+				<div id="enchere2">
+					<p>Plus grosse enchere:</p>
+					<img width="500" height="250"src='res/head2.jpg'>
+				</div>
+			
+			</div>
+			
 		</div>
 	</body>
 	

@@ -59,3 +59,13 @@ body{
 #menu li:last-child{
 	margin-right: 0%;
 }
+
+#encheremain{
+	display: inline;
+	width:50%;
+}
+
+#encheremain #enchere1, #encheremain #enchere2{
+	width: 50;
+	display: inline;
+}
