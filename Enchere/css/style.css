@@ -14,12 +14,17 @@ body{
 	height:2000px;
 	margin:0;
 }
-
+a{
+	color: white;
+	font-size:2em;
+	text-decoration: none;
+}
 p{
 	color: white;
 	font-family:"brFont";
 	font-size:2em;
 }
+
 /*
 =====================
 =				   	=
