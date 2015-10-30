@@ -4,8 +4,8 @@
 	</div>
 	<nav id ="navigation">
 		<ul id = "menu">
-			<li> <a href ="#">Acceuil</a> </li>
-			<li> <a href ="#">Objet</a> </li>
+			<li> <a href ="index.php">Acceuil</a> </li>
+			<li> <a href ="objet.php">Objet</a> </li>
 			<li> <a href ="#">Nouvelle Enchere</a> </li>
 			<li> <a href ="#">Contact</a> </li>
 		</ul>				

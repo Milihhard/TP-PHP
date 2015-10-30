@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "brFont";
+    src: url('../font/Heart Breaking Bad.otf');
+}
+
 body{
 	width:100%;
 	background-image:url("../res/background.jpg");
@@ -12,8 +17,9 @@ body{
 
 p{
 	color: white;
+	font-family:"brFont";
+	font-size:2em;
 }
-
 /*
 =====================
 =				   	=
@@ -59,6 +65,7 @@ p{
 	text-decoration:none;
 	background-color: rgb(51,51,51);
 	padding:5px;
+	font-family:"brFont";
 }
 
 #menu li{
