@@ -105,8 +105,8 @@ p{
 #menu li:last-child{
 	margin-right: 0%;
 }
-.ench1{
-	margin-left=75%;
+#encheremain.td.ench{
+	padding-right=25%;
 }
 
 /*
