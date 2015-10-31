@@ -1,8 +1,8 @@
 <?php
 	$host="localhost";
-	$user="Milihhard";
-	$password="VzE4AUFuSAvm7rpy";
-	$dbname="milihhard";
+	$user="root";
+	$password="";
+	$dbname="brba";
 	$nomAdmin="admin";
 	$mdpAdmin="admin";
 ?>

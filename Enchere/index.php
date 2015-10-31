@@ -43,7 +43,7 @@
 				<?php echo $GLOBALS["prixLastEnchere"]."$";?>
 				</a>
 			</td>
-			<td class="ench">
+			<td class="ench1">
 				<?php echo "<a href=\"enchere.php?nom=".$GLOBALS["nomBestEnchere"]."\">"; ?>
 				<p>Plus grosse enchere</p>
 				<img width="500" height="250"src=<?php  echo "'".$GLOBALS["bestEnchere"]."'";?> ><br>
