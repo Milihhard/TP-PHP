@@ -41,7 +41,7 @@ p{
 }
 
 #banniere{
-	width: 100%;
+	width:100%;
 	background-color:rgba(200,200,51,0.5);
 	margin-left:auto;
 	margin-right:auto;
@@ -53,6 +53,7 @@ p{
 	margin-left:0%;
 	margin-right: auto;
 	margin-bottom:-0.25%;
+	padding-left:0%;
 }
 #navigation{
 	background-color: rgb(75,75,75);
@@ -89,7 +90,7 @@ p{
 	color:white;
 	font-size:2em;
 	text-decoration:none;
-	background-color: rgb(51,51,51);
+	background-color: rgb(75,75,75);
 	padding:5px;
 	font-family:"brFont";
 }

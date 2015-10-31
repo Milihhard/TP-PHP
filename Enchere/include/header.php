@@ -1,6 +1,6 @@
 <div id="header">
 	<div id ="banniere">
-		<img src='res/head1.jpg'>
+		<img src='res/head4.jpg'>
 	</div>
 	<nav id ="navigation">
 		<ul id = "menu">
