@@ -2,6 +2,10 @@
 	font-family: "brFont";
     src: url('../font/Heart Breaking Bad.otf');
 }
+@font-face{
+	font-family: "helv";
+	src: url('../font/HelveticaNeue.ttf');
+}
 
 body{
 	width:100%;
@@ -23,6 +27,23 @@ p{
 	color: white;
 	font-family:"brFont";
 	font-size:2em;
+}
+h2{
+	text-align:center;
+	color: white;
+	font-family:"brFont";
+	font-size:3em;
+}
+
+#presentation{
+	color: white;
+	font-family:"helv";
+	font-size:20px;
+	font-style:underline;
+	text-align:justify;
+	text-indent: 50px;
+	padding-left:50px;
+	padding-right:60px;
 }
 
 /*
@@ -63,7 +84,7 @@ p{
 }
 #perso{
 	color: white;
-	font-family:"brFont";
+	font-family:"helv";
 	margin-left:25%;
 	margin-right:0%;
 	padding-right:0%;
@@ -77,7 +98,7 @@ p{
 }
 #obj{
 	color: white;
-	font-family:"brFont";
+	font-family:"helv";
 	margin-left:75%;
 	padding-left:0%;
 	margin-top:0%;
@@ -116,7 +137,7 @@ p{
 
 #infos{
 	color: white;
-	font-family:"Calibri";
+	font-family:"helv";
 	font-size:20px;
 	text-align:justify;
 	padding-left:40px;
