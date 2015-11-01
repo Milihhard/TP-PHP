@@ -35,8 +35,8 @@ if (!$id){
 					Nom de L'Objet<br><input type='text' name='nomObj' value=<?php isset($_POST['nomObj'])?>><br>
 					Url de L'Image<br><input type='url' name='Image'  value=<?php isset($_POST['Image'])?>><br>
 					Prix Min<br><input type='text' name='PrixMin' value=<?php isset($_POST['PrixMin'])?>><br>
-					Datedebut<br><input type='text' name='DateDebut' value=<?php isset($_POST['DateDebut'])?>><br>
-					DateFin<br><input type='text' name='DateFin' value=<?php isset($_POST['DateFin'])?>><br>
+					Datedebut<br><input type='date' name='DateDebut' value=<?php isset($_POST['DateDebut'])?>><br>
+					DateFin<br><input type='date' name='DateFin' value=<?php isset($_POST['DateFin'])?>><br>
 				</div>
 					<input type="submit" name="valider" value="Valider">
 			</form>
