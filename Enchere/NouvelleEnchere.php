@@ -5,21 +5,7 @@ if (!$id){
 	die('Erreur de connexion('.mysqli_connect_errno().') '.mysqli_connect_error());
 }
 ?>
-<?php 
-global $nom;
-global $prenom;
-global $email;
-global $tel;
-global $nomObj;
-global $Image;
-global $DateDebut;
-global $DateFin;
-global $PrixMin;
-$_POST['prenom']=$prenom;
-$_POST['nom']=$nom;
-$_POST['email']=$email;
-$_POST['tel']=$tel;
-?>
+
 
 <!DOCTYPE html>
 <html lang="fr">

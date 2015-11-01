@@ -109,6 +109,15 @@ p{
 	padding-right=25%;
 }
 
+#infos{
+	color: white;
+	font-family:"Calibri";
+	font-size:20px;
+	text-align:justify;
+	padding-left:40px;
+	padding-right:40px;
+}
+
 /*
 =====================
 =				  	=
