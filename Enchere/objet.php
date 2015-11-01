@@ -12,7 +12,7 @@
 			include("params.inc.php");
 
 			$id = mysqli_connect($host,$user,$password,$dbname);
-			$requete="SELECT * FROM objet";
+			$requete="SELECT * FROM objet where CONVERT(DATE_FORMAT(DATE(miseEnLigne),'%Y%c%d'),UNSIGNED INTEGER) <= CONVERT(DATE_FORMAT(CURDATE(),'%Y%c%d'),UNSIGNED INTEGER)";
 			$marche = mysqli_query($id, $requete);
 			$cmpt =0;
 			global $objet;

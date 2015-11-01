@@ -2,18 +2,19 @@
 function ajoutObjet($id){
 	$requete = "SELECT nomObjet FROM objet WHERE nomObjet like '" . $_POST['nomObj']. "'";
 	$marche = mysqli_query($id, $requete);
-	if ($ligne = $marche->fetch_array(MYSQLI_NUM)) {
+	if (/*$ligne = $marche->fetch_array(MYSQLI_NUM)*/0) {
 		echo "nom objet déjà utilisé<br>";
 		header('Location:NouvelleEnchere.php');
 		$id->close();
 		exit();
 	}else{
+		echo "<br>".$_POST['nomObj']."<br>";
 		if($_POST['DateDebut']<=$_POST['DateFin']){
 			$requete = "SELECT * FROM utilisateur WHERE addresse like '" . $_POST['mail'][0] . "'";
 			$marche = mysqli_query($id, $requete);
 			$ligne = $marche->fetch_array(MYSQLI_NUM);
 			$requete = "INSERT INTO objet (nomObjet, idUtilisateur, image, prixMin, miseEnLigne, finEncheres, prixEnchere)
-							VALUES ('".$_POST['nomObj']."', '".$ligne[4]."', '".$_POST['image']."', '".$_POST['prixMin']."', '".$_POST['dateDebut']."', '".$_POST['dateFin']."', '".$_POST['prixMin']."')";
+							VALUES ( '".$_POST['nomObj']."', '".$ligne[4]."', '".$_POST['image']."', '".$_POST['prixMin']."', '".$_POST['dateDebut']."', '".$_POST['dateFin']."', '".$_POST['prixMin']."')";
 			if ($id->query($requete) === TRUE) {
 				echo "<a href=\"index.php\">revenir sur la page acceuil</a>";
 				echo "<br>bonne inscription";

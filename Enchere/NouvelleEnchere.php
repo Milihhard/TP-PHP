@@ -28,7 +28,7 @@ if (!$id){
 	<form method='POST' action='traite_newEnchere.php'>
 		<table>
 			<td>
-			<div id='perso' class='inline'>
+			<div class='inline'>
 				Nom<br><input type='text' name='lastname' required><br>
 				Prenom<br><input type='text' name='nickname' required><br>
 				Addresse Mail<br><input type='text' name='mail[]' required><br>
@@ -37,9 +37,10 @@ if (!$id){
 			</div>
 			</td>
 			<td>
-			<div id='obj' class='inline'>
+			<div class='inline'>
+				<input type='hidden' name='pouet'>
 				Nom de L'Objet<br><input type='text' name='nomObj' required><br>
-				Url de L'Image<br><input type='url' name='image'  required><br>
+				Url de L'Image<br><input type='url'  name='image'  required><br>
 				Prix Min<br><input type='text' name='prixMin' required><br>
 				Date debut<br><input type='date' name='dateDebut' required><br>
 				Date Fin<br><input type='date' name='dateFin' required><br>

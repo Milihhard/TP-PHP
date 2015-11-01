@@ -10,9 +10,8 @@
 	<?php
 	include("include/header.php");
 	include("params.inc.php");
-
 	$id = mysqli_connect($host,$user,$password,$dbname);
-	$requete="SELECT image, miseEnLigne, nomObjet, prixEnchere FROM objet where miseEnLigne IN (SELECT max(miseEnLigne) FROM objet)";
+	$requete="SELECT image, miseEnLigne, nomObjet, prixEnchere FROM objet where miseEnLigne IN (SELECT max(miseEnLigne) FROM objet where CONVERT(DATE_FORMAT(DATE(miseEnLigne),'%Y%c%d'),UNSIGNED INTEGER) <= CONVERT(DATE_FORMAT(CURDATE(),'%Y%c%d'),UNSIGNED INTEGER))";
 	$marche = mysqli_query($id, $requete);
 	$ligne = $marche->fetch_array(MYSQLI_NUM);
 	global $lastEnchere;
@@ -21,7 +20,7 @@
 	$lastEnchere= $ligne[0];
 	$nomLastEnchere= $ligne[2];
 	$prixLastEnchere= $ligne[3];
-	$requete="SELECT image, prixEnchere, nomObjet, prixEnchere FROM objet where prixEnchere IN (SELECT max(prixEnchere) FROM objet)";
+	$requete="SELECT image, prixEnchere, nomObjet, prixEnchere FROM objet where prixEnchere IN (SELECT max(prixEnchere) FROM objet where CONVERT(DATE_FORMAT(DATE(miseEnLigne),'%Y%c%d'),UNSIGNED INTEGER) <= CONVERT(DATE_FORMAT(CURDATE(),'%Y%c%d'),UNSIGNED INTEGER))";
 	$marche = mysqli_query($id, $requete);
 	global $bestEnchere;
 	global $nomBestEnchere;
