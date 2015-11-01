@@ -82,27 +82,33 @@ h2{
 	padding-top:0.5%;
 	padding-bottom:0.5%;
 }
-#perso{
+/*#perso{
 	color: white;
 	font-family:"helv";
 	margin-left:25%;
 	margin-right:0%;
 	padding-right:0%;
 
-}
+}*/
 #formulaire{
 	color: black;
 	font-family:"brFont";
-	font-size:2em;
+	font-size:1em;
 	
 }
-#obj{
+#formulaire table{
+	color: white;
+	font-family:"helv";
+	margin-left:auto;
+	margin-right:auto;
+}
+/*#obj{
 	color: white;
 	font-family:"helv";
 	margin-left:75%;
 	padding-left:0%;
 	margin-top:0%;
-}
+}*/
 
 #menu{
 	font-weight : bold;
