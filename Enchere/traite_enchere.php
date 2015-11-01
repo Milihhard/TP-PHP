@@ -17,7 +17,7 @@ if($_POST['mail'][0]==$_POST['mail'][1]) {
 		//bon e-mail
 		if ($ligne[1] = $_POST["lastname"] and $ligne[0] = $_POST["nickname"] and $ligne[3] = $_POST["phone"]) {
 			//bonne co
-			echo "<a href=\"enchere.php?nom=" . $_SESSION["nomObjet"] . "\">revenir sur la page objet</a>";
+			echo "<a href=\"index.php\">revenir sur la page acceuil</a>";
 			if (isset($_SESSION["prixObjet"]) and $_SESSION["prixObjet"] < $_POST["enchere"]) {
 				$sql = "UPDATE Objet SET Uti_idUtilisateur= ".$ligne[4].", prixEnchere=".$_POST["enchere"]." WHERE nomObjet like '".$_SESSION["nomObjet"]."'";
 				if ($id->query($sql) === TRUE) {
@@ -54,7 +54,7 @@ if($_POST['mail'][0]==$_POST['mail'][1]) {
 		$requete = "INSERT INTO utilisateur (nom, prenom, addresse, telephone)
 							VALUES ('".$_POST['lastname']."', '".$_POST['nickname']."', '".$_POST['mail'][0]."', '".$_POST['phone']."')";
 		if ($id->query($requete) === TRUE) {
-			echo "<a href=\"enchere.php?nom=" . $_SESSION["nomObjet"] . "\">revenir sur la page objet</a>";
+			echo "<a href=\"index.php\">revenir sur la page acceuil</a>";
 			echo "<br>bonne inscription";
 			$requete = "SELECT idUtilisateur FROM utilisateur WHERE addresse like '" . $_POST['mail'][0] . "'";
 			$marche = $id->query($requete);
