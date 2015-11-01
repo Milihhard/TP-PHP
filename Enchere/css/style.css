@@ -34,6 +34,12 @@ h2{
 	font-family:"brFont";
 	font-size:3em;
 }
+h1{
+
+	color: white;
+	font-family:"brFont";
+	font-size:2em;
+}
 
 #presentation{
 	color: white;
@@ -85,21 +91,31 @@ h2{
 #perso{
 	color: white;
 	font-family:"helv";
-	margin-left:25%;
+	margin-left:3%;
 	margin-right:0%;
 	padding-right:0%;
 
 }
+#bouton{
+	margin-left:3%;
+	font-family:"helv";
+}
+#mail{
+	color: white;
+	font-family:"helv";
+}
 #formulaire{
 	color: black;
 	font-family:"brFont";
-	font-size:2em;
+	font-size:20px;
+	padding-left:0%;
+	margin-left:40%;
 	
 }
 #obj{
 	color: white;
 	font-family:"helv";
-	margin-left:75%;
+	margin-left:3%;
 	padding-left:0%;
 	margin-top:0%;
 }

@@ -23,7 +23,7 @@ if (!$id){
 		
 		<br>
 		<div id="formulaire">
-			<h1 style='text-align:center'>Nouvelle Enchere</h1>
+			<h1>Nouvelle Enchere</h1>
 			<form method='POST' action='INSERTBD.php'>
 				<div id='perso'>
 					Nom<br><input type='text' name='nom' value=<?php isset($_POST['nom'])?>><br>
@@ -38,7 +38,7 @@ if (!$id){
 					Datedebut<br><input type='date' name='DateDebut' value=<?php isset($_POST['DateDebut'])?>><br>
 					DateFin<br><input type='date' name='DateFin' value=<?php isset($_POST['DateFin'])?>><br>
 				</div>
-					<input type="submit" name="valider" value="Valider">
+					<div id='bouton'><input type="submit" name="valider" value="Valider"></div>
 			</form>
 			
 			
