@@ -53,6 +53,4 @@ if (!$id){
 
 </div>
 </body>
-
->>>>>>> origin/master
 </html>
