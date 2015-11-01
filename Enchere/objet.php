@@ -33,7 +33,7 @@
 						echo"<tr>";
 						echo"<td>";
 						echo "<p>".$objet[$cmpt][0]."&nbsp&nbsp&nbsp</p>";
-						echo $objet[$cmpt][7]."$";
+						echo "<a>".$objet[$cmpt][7]."$</a>";
 						echo "<br>";
 						echo "<a href=\"enchere.php?nom=".$objet[$cmpt][0]."\">";
 						echo "<img width=\"500\" height=\"250\"src='".$objet[$cmpt][3]."'>";
