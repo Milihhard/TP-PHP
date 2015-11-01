@@ -52,6 +52,13 @@
 			</td>
 		</table>
 	</div>
+	Breaking Bad ou Breaking Bad : Le Chimiste1 au Québec est une série télévisée américaine en 62 épisodes de 47 minutes, créée par Vince Gilligan, diffusée simultanément du 20 janvier 2008 au 29 septembre 2013 sur AMC aux États-Unis et au Canada, et ensuite sur Netflix.
+
+La série se concentre sur Walter « Walt » White, un professeur de chimie sur-qualifié et père de famille, qui, ayant appris qu'il est atteint d'un cancer du poumon en phase terminale, sombre dans le crime pour assurer l'avenir financier de sa famille. Pour cela, il se lance dans la fabrication et la vente de méthamphétamines avec l'aide de l'un de ses anciens élèves, Jesse Pinkman2. L'histoire se déroule à Albuquerque, au Nouveau-Mexique.
+
+Breaking Bad remporte de nombreuses récompenses : 15 Emmy Awards dont quatre du meilleur acteur pour Bryan Cranston, trois de meilleur acteur dans un second rôle pour Aaron Paul, deux de meilleure actrice dans un second rôle pour Anna Gunn, deux de meilleure série télévisée dramatique. Bryan Cranston a été nommé quatre fois au Golden Globe et le remporte la quatrième fois en 2014. Il a également été nommé cinq fois au Screen Actors Guild Award, remportant la récompense en 2013 et 2014.
+
+Par ailleurs, Breaking Bad reçoit un large succès critique au fil des saisons3,4,5,6,7 et est à présent considérée comme l'une des meilleures séries télévisées américaines8,9,10,11. La cinquième saison a eu un score de 99 sur 100 sur le site Metacritic12. En 2013, la Writers Guild of America la nomme 13e des séries les mieux écrites de l'histoire de la télévision13. IMDB la classe 3e de son top 250 des série TV14 et elle est 2e du classement des meilleurs séries de tous les temps selon Allociné15. Enfin, le magazine The Hollywood Reporter classe Breaking Bad comme la 2e meilleure série américaine derrière Friends16, alors que Esquire la place 2e meilleure série dramatique après les Sopranos17.
 
 </div>
 </body>
