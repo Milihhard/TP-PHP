@@ -32,7 +32,7 @@
 					while(isset($objet[$cmpt])){
 						echo"<tr>";
 						echo"<td>";
-						echo "<p>".$objet[$cmpt][0]."&nbsp&nbsp&nbsp</p>";
+						echo "<h3>".$objet[$cmpt][0]."&nbsp&nbsp&nbsp</h3>";
 						echo "<a>".$objet[$cmpt][7]."$</a>";
 						echo "<br>";
 						echo "<a href=\"enchere.php?nom=".$objet[$cmpt][0]."\">";
@@ -43,7 +43,7 @@
 						$cmpt++;
 						if(isset($objet[$cmpt])){
 							echo"<td>";
-							echo "<p>".$objet[$cmpt][0]."&nbsp&nbsp&nbsp</p>";
+							echo "<h3>".$objet[$cmpt][0]."&nbsp&nbsp&nbsp</h3>";
 							echo $objet[$cmpt][7]."$";
 							echo "<a href=\"enchere.php?nom=".$objet[$cmpt][0]."\">";
 							echo "<img width=\"500\" height=\"250\"src='".$objet[$cmpt][3]."'>";

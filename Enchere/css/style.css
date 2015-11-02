@@ -23,9 +23,24 @@ a{
 	font-size:2em;
 	text-decoration: none;
 }
+h3{
+	color: white;
+	font-family:"brFont";
+	font-size:2em;
+}
 p{
 	color: white;
 	font-family:"brFont";
+	font-size:1em;
+}
+#font2{
+	color: white;
+	font-family:"helv";
+	font-size:1em;
+}
+#font{
+	color: white;
+	font-family:"helv";
 	font-size:2em;
 }
 h2{
@@ -161,6 +176,12 @@ h1{
 #encheremain td{
 	width:50%;
 
+}
+
+#enchobj table{
+	color: white;
+	font-family:"helv";
+	font-size:20px;
 }
 
 #infos{
