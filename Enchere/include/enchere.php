@@ -10,7 +10,7 @@
 		}
 		if(isset($_SESSION["tropEnchere"]) and $_SESSION["tropEnchere"]==1){
 			echo "<p id='red'>Vous avez fait trop d'enchere!</p>";
-			$_SESSION["nbEnchere"]=0;
+			$_SESSION["tropEnchere"]=0;
 		}?>
 		<p id="font2">Votre prenom :</p><input type="text" name="nickname" required autofocus>
 		<p id="font2">Votre nom :</p><input type="text" name="lastname" required>

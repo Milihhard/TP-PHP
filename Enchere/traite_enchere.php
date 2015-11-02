@@ -9,7 +9,7 @@
 <body>
 <?php
 include("params.inc.php");
-if(isset($_SESSION["nbEnchere"]) && ($_SESSION["nbEnchere"]>4)){
+if(isset($_SESSION["nbEnchere"]) && ($_SESSION["nbEnchere"]>3)){
 	echo "trop enchere";
 	if (isset($_SESSION["nomObjet"])) {
 		$file = "Location:enchere.php?nom=" . $_SESSION["nomObjet"];
